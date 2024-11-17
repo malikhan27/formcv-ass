@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+  <div id="form">
+  <div class="container-fluid text-center">
+    <h1>CV CREATING FORM</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 d-flex flex-column text-center ">
+        <label for="name">Your Name</label>
+        <input id="name" class=" form-control" type="text" placeholder="Your Name">
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column text-center">
+        <label for="father-name">Fathers Name</label>
+        <input id="father-name" class=" form-control" type="text" placeholder=" Fathers Name">
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column text-center">
+        <label for="email">Email</label>
+        <input id="email" class=" form-control" type="email" placeholder="Email">
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column text-center">
+        <label for="number">Phone</label>
+        <input id="number" class=" form-control" type="number" placeholder=" Phone">
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column text-center">
+        <label for="DOB">Date of birth</label>
+        <input id="DOB" class=" form-control" type="date">
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column text-center">
+        <div class="d-flex justify-content-around align-items-center mt-4">
+        <span><b>Gender:</b></span>
+        <label for="Gndrm"><b> Male</b></label>
+        <input class=" form-check-input" type="radio" id="Gndrm" name="Gender" value="Male">
+        <label for="Gndrf"><b>Female</b></label>
+        <input class=" form-check-input" type="radio" id="Gndrf" name="Gender" value="Female">
+        
+      </div>
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column text-center mt-1">
+        <label for="Address">Address</label>
+        <input  id="Address"  class="form-control" type="text">
+
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column text-center mt-1">
+        <label for="LstQualf">Last-Qualification</label>
+        <select class="form-control" name="Last-Qualification" id="LstQualf">
+          <option value="Last-Qualification" selected>Last Qualification</option>
+          <option value="Masters">Masters</option>
+          <option value="intermidiate">intermidiate</option>
+          <option value="'Matriculation">Matriculation</option>
+       </select>
+      </div>
+      <div class="col-12 d-flex flex-column text-center">
+        <div class="d-flex justify-content-around mt-4">
+        <span><b>Hobbies:</b></span>
+        <label for="Hobbies1">Coding</label>
+        <input  id="Hobbies1"  class="form-check-input" name="hobbies" value="CODING" type="checkbox">
+        <label for="Hobbies2">Reading</label>
+        <input  id="Hobbies2"  class="form-check-input" name="hobbies" value="READING" type="checkbox">
+        <label for="Hobbies3">Cycling</label> 
+        <input  id="Hobbies3"  class="form-check-input" name="hobbies" value="CYCLINGS" type="checkbox">
+      </div>
+      </div>
+      <div class="col-12 d-flex flex-column mt-4 text-center">
+      <legend>About Yourself</legend>
+      <textarea class="form-control" name="aboutme-" placeholder="Write About Yourself" id="aboutme">
+      </textarea>
+      </div>
+      <div class="col-12 d-flex flex-column mt-3 text-center">
+        <legend>Work Experience</legend>
+        <textarea class="form-control" name="Work-Experience" placeholder="Tell Your Work-Experience" id="work">
+        </textarea>
+        </div>
+      <div class="col-12  d-flex flex-column text-center p-3">
+        <legend>Achievement</legend>
+        <textarea class="form-control" name="achvment" id="Achievement" placeholder="Write About Your Achievement If You Have Any">
+        </textarea>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <button onclick="getValue()" class="btn btn-primary">Submit</button>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+ <div class="container d-none" id="cv">
+  <div class="text-center">
+    <h1 id="nme"></h1>
+  </div>
+
+  <div>
+  <h3 id="fathernm"></h3>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+    <h6 id="adres"></h6>
+    </div>
+    <div class="col-md-3">
+    <h6 id="mail"></h6>
+    </div>
+    <div class="col-md-3">
+      <h6 id="gnd"></h6>
+
+    </div>
+    <div class="col-md-3">
+      <h6 id="Phn"></h6>
+
+    </div>
+
+
+  </div>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="app.js"></script>
+  <script src="bundle.js"></script>
+  <script src="popper.js"></script>
+  <script src="bootstrap.js"></script>
+</body>
+
+</html>
