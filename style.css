@@ -1,1 +1,30 @@
-/*# sourceMappingURL=style.css.map */
+#form {
+  background: url(assets/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#form input {
+  border: solid 2px lightskyblue;
+}
+#form textarea {
+  border: solid 2px lightskyblue;
+}
+#form select {
+  border: solid 2px lightskyblue;
+}
+#form label {
+  color: rgba(0, 87, 145, 0.979);
+  font-weight: 500;
+}
+#form legend {
+  color: rgba(0, 87, 145, 0.979);
+  font-weight: 500;
+}
+#form b {
+  color: rgba(0, 87, 145, 0.979);
+  font-weight: 700;
+}
+#form .btn {
+  background-color: rgba(0, 87, 145, 0.979) !important;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
